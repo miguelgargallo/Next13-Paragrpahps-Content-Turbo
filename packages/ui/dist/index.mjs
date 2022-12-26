@@ -137,7 +137,7 @@ var SubMenu = () => {
           children: /* @__PURE__ */ jsx4("a", {
             href: "/#",
             className: "",
-            children: "Pylar"
+            children: "ITAMAESAN"
           })
         }),
         /* @__PURE__ */ jsxs3("div", {
@@ -148,7 +148,7 @@ var SubMenu = () => {
               children: /* @__PURE__ */ jsx4("a", {
                 href: "/#",
                 className: "",
-                children: "Menu Element 1"
+                children: "Wri"
               })
             }),
             /* @__PURE__ */ jsx4("div", {
@@ -156,7 +156,7 @@ var SubMenu = () => {
               children: /* @__PURE__ */ jsx4("a", {
                 href: "/#",
                 className: "",
-                children: "Menu Element 2"
+                children: "Helpedesk"
               })
             }),
             /* @__PURE__ */ jsx4("div", {
@@ -164,7 +164,7 @@ var SubMenu = () => {
               children: /* @__PURE__ */ jsx4("a", {
                 href: "/#",
                 className: "",
-                children: "Menu Element 3"
+                children: "SushiJS"
               })
             }),
             /* @__PURE__ */ jsx4("div", {
@@ -172,7 +172,7 @@ var SubMenu = () => {
               children: /* @__PURE__ */ jsx4("a", {
                 href: "/#",
                 className: "",
-                children: "Menu Element 4"
+                children: "GiveAway Tool"
               })
             }),
             /* @__PURE__ */ jsx4("div", {
@@ -180,7 +180,7 @@ var SubMenu = () => {
               children: /* @__PURE__ */ jsx4("a", {
                 href: "/#",
                 className: "",
-                children: "Menu Element 5"
+                children: "Twitter"
               })
             })
           ]
@@ -194,40 +194,251 @@ var SubMenu = () => {
 import { jsx as jsx5, jsxs as jsxs4 } from "react/jsx-runtime";
 var MainMenu = () => {
   return /* @__PURE__ */ jsxs4("div", {
-    className: "flex w-full items-center justify-center",
+    className: "flex w-full items-center justify-center hidden md:flex",
     children: [
       /* @__PURE__ */ jsx5("a", {
-        href: "/#",
+        href: "/cloud",
         className: "p-4 text-white text-md font-bold",
-        children: "Menu Element 1"
+        children: "Cloud"
       }),
       /* @__PURE__ */ jsx5("a", {
         href: "/#",
         className: "p-4 text-white text-md font-bold",
-        children: "Menu Element 2"
+        children: "Apps"
       }),
       /* @__PURE__ */ jsx5("a", {
         href: "/#",
         className: "p-4 text-white text-3xl font-bold",
-        children: "SuperMenu"
+        children: "Superdata"
       }),
       /* @__PURE__ */ jsx5("a", {
         href: "/#",
         className: "p-4 text-white text-md font-bold",
-        children: "Menu Element 4"
+        children: "Dev"
       }),
       /* @__PURE__ */ jsx5("a", {
         href: "/#",
         className: "p-4 text-white text-md font-bold",
-        children: "Menu Element 5"
+        children: "Contact"
       })
     ]
+  });
+};
+
+// src/MainMenuCloud.tsx
+import { jsx as jsx6, jsxs as jsxs5 } from "react/jsx-runtime";
+var MainMenuCloud = () => {
+  return /* @__PURE__ */ jsxs5("div", {
+    className: "flex w-full items-center justify-center hidden md:flex",
+    children: [
+      /* @__PURE__ */ jsx6("a", {
+        href: "/cloud",
+        className: "p-4 text-white text-md font-bold underline",
+        children: "Cloud"
+      }),
+      /* @__PURE__ */ jsx6("a", {
+        href: "/apps",
+        className: "p-4 text-white text-md font-bold",
+        children: "Apps"
+      }),
+      /* @__PURE__ */ jsx6("a", {
+        href: "/#",
+        className: "p-4 text-white text-3xl font-bold",
+        children: "Superdata"
+      }),
+      /* @__PURE__ */ jsx6("a", {
+        href: "/dev",
+        className: "p-4 text-white text-md font-bold",
+        children: "Dev"
+      }),
+      /* @__PURE__ */ jsx6("a", {
+        href: "/contact",
+        className: "p-4 text-white text-md font-bold",
+        children: "Contact"
+      })
+    ]
+  });
+};
+
+// src/MainMenuApps.tsx
+import { jsx as jsx7, jsxs as jsxs6 } from "react/jsx-runtime";
+var MainMenuApps = () => {
+  return /* @__PURE__ */ jsxs6("div", {
+    className: "flex w-full items-center justify-center hidden md:flex",
+    children: [
+      /* @__PURE__ */ jsx7("a", {
+        href: "/cloud",
+        className: "p-4 text-white text-md font-bold",
+        children: "Cloud"
+      }),
+      /* @__PURE__ */ jsx7("a", {
+        href: "/apps",
+        className: "p-4 text-white text-md font-bold underline",
+        children: "Apps"
+      }),
+      /* @__PURE__ */ jsx7("a", {
+        href: "/#",
+        className: "p-4 text-white text-3xl font-bold",
+        children: "Superdata"
+      }),
+      /* @__PURE__ */ jsx7("a", {
+        href: "/dev",
+        className: "p-4 text-white text-md font-bold",
+        children: "Dev"
+      }),
+      /* @__PURE__ */ jsx7("a", {
+        href: "/contact",
+        className: "p-4 text-white text-md font-bold",
+        children: "Contact"
+      })
+    ]
+  });
+};
+
+// src/MainMenuDev.tsx
+import { jsx as jsx8, jsxs as jsxs7 } from "react/jsx-runtime";
+var MainMenuDev = () => {
+  return /* @__PURE__ */ jsxs7("div", {
+    className: "flex w-full items-center justify-center hidden md:flex",
+    children: [
+      /* @__PURE__ */ jsx8("a", {
+        href: "/cloud",
+        className: "p-4 text-white text-md font-bold",
+        children: "Cloud"
+      }),
+      /* @__PURE__ */ jsx8("a", {
+        href: "/apps",
+        className: "p-4 text-white text-md font-bold",
+        children: "Apps"
+      }),
+      /* @__PURE__ */ jsx8("a", {
+        href: "/#",
+        className: "p-4 text-white text-3xl font-bold",
+        children: "Superdata"
+      }),
+      /* @__PURE__ */ jsx8("a", {
+        href: "/dev",
+        className: "p-4 text-white text-md font-bold underline",
+        children: "Dev"
+      }),
+      /* @__PURE__ */ jsx8("a", {
+        href: "/contact",
+        className: "p-4 text-white text-md font-bold",
+        children: "Contact"
+      })
+    ]
+  });
+};
+
+// src/MainMenuContact.tsx
+import { jsx as jsx9, jsxs as jsxs8 } from "react/jsx-runtime";
+var MainMenuContact = () => {
+  return /* @__PURE__ */ jsxs8("div", {
+    className: "flex w-full items-center justify-center hidden md:flex",
+    children: [
+      /* @__PURE__ */ jsx9("a", {
+        href: "/cloud",
+        className: "p-4 text-white text-md font-bold",
+        children: "Cloud"
+      }),
+      /* @__PURE__ */ jsx9("a", {
+        href: "/apps",
+        className: "p-4 text-white text-md font-bold",
+        children: "Apps"
+      }),
+      /* @__PURE__ */ jsx9("a", {
+        href: "/#",
+        className: "p-4 text-white text-3xl font-bold",
+        children: "Superdata"
+      }),
+      /* @__PURE__ */ jsx9("a", {
+        href: "/dev",
+        className: "p-4 text-white text-md font-bold",
+        children: "Dev"
+      }),
+      /* @__PURE__ */ jsx9("a", {
+        href: "/cont",
+        className: "p-4 text-white text-md font-bold underline",
+        children: "Contact"
+      })
+    ]
+  });
+};
+
+// src/SubMenuItamaesan.tsx
+import { jsx as jsx10, jsxs as jsxs9 } from "react/jsx-runtime";
+var SubMenuItamaesan = () => {
+  return /* @__PURE__ */ jsx10("div", {
+    className: "flex flex-col bg-white text-black items-center hidden md:block",
+    children: /* @__PURE__ */ jsxs9("div", {
+      className: "container flex w-full columns-2 p-5 items-center justify-center",
+      children: [
+        /* @__PURE__ */ jsx10("div", {
+          className: "p-3 m-3 px-24 text-md text-left items-left justify-left",
+          children: /* @__PURE__ */ jsx10("a", {
+            href: "/#",
+            className: "",
+            children: "ITAMAESAN ORG"
+          })
+        }),
+        /* @__PURE__ */ jsxs9("div", {
+          className: "p-3 m-3 px-24 text-md text-left items-left justify-left",
+          children: [
+            /* @__PURE__ */ jsx10("div", {
+              className: "",
+              children: /* @__PURE__ */ jsx10("a", {
+                href: "/#",
+                className: "",
+                children: "Wri"
+              })
+            }),
+            /* @__PURE__ */ jsx10("div", {
+              className: "",
+              children: /* @__PURE__ */ jsx10("a", {
+                href: "/#",
+                className: "",
+                children: "Helpedesk"
+              })
+            }),
+            /* @__PURE__ */ jsx10("div", {
+              className: "",
+              children: /* @__PURE__ */ jsx10("a", {
+                href: "/#",
+                className: "",
+                children: "SushiJS"
+              })
+            }),
+            /* @__PURE__ */ jsx10("div", {
+              className: "",
+              children: /* @__PURE__ */ jsx10("a", {
+                href: "/#",
+                className: "",
+                children: "GiveAway Tool"
+              })
+            }),
+            /* @__PURE__ */ jsx10("div", {
+              className: "",
+              children: /* @__PURE__ */ jsx10("a", {
+                href: "/#",
+                className: "",
+                children: "Twitter"
+              })
+            })
+          ]
+        })
+      ]
+    })
   });
 };
 export {
   Button,
   Footer,
   MainMenu,
+  MainMenuApps,
+  MainMenuCloud,
+  MainMenuContact,
+  MainMenuDev,
   SubMenu,
+  SubMenuItamaesan,
   Version
 };

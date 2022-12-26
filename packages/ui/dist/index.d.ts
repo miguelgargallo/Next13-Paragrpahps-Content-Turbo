@@ -8,4 +8,14 @@ declare const SubMenu: () => JSX.Element;
 
 declare const MainMenu: () => JSX.Element;
 
-export { Button, Footer, MainMenu, SubMenu, Version };
+declare const MainMenuCloud: () => JSX.Element;
+
+declare const MainMenuApps: () => JSX.Element;
+
+declare const MainMenuDev: () => JSX.Element;
+
+declare const MainMenuContact: () => JSX.Element;
+
+declare const SubMenuItamaesan: () => JSX.Element;
+
+export { Button, Footer, MainMenu, MainMenuApps, MainMenuCloud, MainMenuContact, MainMenuDev, SubMenu, SubMenuItamaesan, Version };

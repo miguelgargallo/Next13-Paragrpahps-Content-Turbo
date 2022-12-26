@@ -23,7 +23,12 @@ __export(src_exports, {
   Button: () => Button,
   Footer: () => Footer,
   MainMenu: () => MainMenu,
+  MainMenuApps: () => MainMenuApps,
+  MainMenuCloud: () => MainMenuCloud,
+  MainMenuContact: () => MainMenuContact,
+  MainMenuDev: () => MainMenuDev,
   SubMenu: () => SubMenu,
+  SubMenuItamaesan: () => SubMenuItamaesan,
   Version: () => Version
 });
 module.exports = __toCommonJS(src_exports);
@@ -167,7 +172,7 @@ var SubMenu = () => {
           children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
             href: "/#",
             className: "",
-            children: "Pylar"
+            children: "ITAMAESAN"
           })
         }),
         /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)("div", {
@@ -178,7 +183,7 @@ var SubMenu = () => {
               children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
                 href: "/#",
                 className: "",
-                children: "Menu Element 1"
+                children: "Wri"
               })
             }),
             /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", {
@@ -186,7 +191,7 @@ var SubMenu = () => {
               children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
                 href: "/#",
                 className: "",
-                children: "Menu Element 2"
+                children: "Helpedesk"
               })
             }),
             /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", {
@@ -194,7 +199,7 @@ var SubMenu = () => {
               children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
                 href: "/#",
                 className: "",
-                children: "Menu Element 3"
+                children: "SushiJS"
               })
             }),
             /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", {
@@ -202,7 +207,7 @@ var SubMenu = () => {
               children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
                 href: "/#",
                 className: "",
-                children: "Menu Element 4"
+                children: "GiveAway Tool"
               })
             }),
             /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("div", {
@@ -210,7 +215,7 @@ var SubMenu = () => {
               children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)("a", {
                 href: "/#",
                 className: "",
-                children: "Menu Element 5"
+                children: "Twitter"
               })
             })
           ]
@@ -224,34 +229,240 @@ var SubMenu = () => {
 var import_jsx_runtime5 = require("react/jsx-runtime");
 var MainMenu = () => {
   return /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)("div", {
-    className: "flex w-full items-center justify-center",
+    className: "flex w-full items-center justify-center hidden md:flex",
     children: [
       /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("a", {
-        href: "/#",
+        href: "/cloud",
         className: "p-4 text-white text-md font-bold",
-        children: "Menu Element 1"
+        children: "Cloud"
       }),
       /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("a", {
         href: "/#",
         className: "p-4 text-white text-md font-bold",
-        children: "Menu Element 2"
+        children: "Apps"
       }),
       /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("a", {
         href: "/#",
         className: "p-4 text-white text-3xl font-bold",
-        children: "SuperMenu"
+        children: "Superdata"
       }),
       /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("a", {
         href: "/#",
         className: "p-4 text-white text-md font-bold",
-        children: "Menu Element 4"
+        children: "Dev"
       }),
       /* @__PURE__ */ (0, import_jsx_runtime5.jsx)("a", {
         href: "/#",
         className: "p-4 text-white text-md font-bold",
-        children: "Menu Element 5"
+        children: "Contact"
       })
     ]
+  });
+};
+
+// src/MainMenuCloud.tsx
+var import_jsx_runtime6 = require("react/jsx-runtime");
+var MainMenuCloud = () => {
+  return /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("div", {
+    className: "flex w-full items-center justify-center hidden md:flex",
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("a", {
+        href: "/cloud",
+        className: "p-4 text-white text-md font-bold underline",
+        children: "Cloud"
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("a", {
+        href: "/apps",
+        className: "p-4 text-white text-md font-bold",
+        children: "Apps"
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("a", {
+        href: "/#",
+        className: "p-4 text-white text-3xl font-bold",
+        children: "Superdata"
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("a", {
+        href: "/dev",
+        className: "p-4 text-white text-md font-bold",
+        children: "Dev"
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("a", {
+        href: "/contact",
+        className: "p-4 text-white text-md font-bold",
+        children: "Contact"
+      })
+    ]
+  });
+};
+
+// src/MainMenuApps.tsx
+var import_jsx_runtime7 = require("react/jsx-runtime");
+var MainMenuApps = () => {
+  return /* @__PURE__ */ (0, import_jsx_runtime7.jsxs)("div", {
+    className: "flex w-full items-center justify-center hidden md:flex",
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("a", {
+        href: "/cloud",
+        className: "p-4 text-white text-md font-bold",
+        children: "Cloud"
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("a", {
+        href: "/apps",
+        className: "p-4 text-white text-md font-bold underline",
+        children: "Apps"
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("a", {
+        href: "/#",
+        className: "p-4 text-white text-3xl font-bold",
+        children: "Superdata"
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("a", {
+        href: "/dev",
+        className: "p-4 text-white text-md font-bold",
+        children: "Dev"
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("a", {
+        href: "/contact",
+        className: "p-4 text-white text-md font-bold",
+        children: "Contact"
+      })
+    ]
+  });
+};
+
+// src/MainMenuDev.tsx
+var import_jsx_runtime8 = require("react/jsx-runtime");
+var MainMenuDev = () => {
+  return /* @__PURE__ */ (0, import_jsx_runtime8.jsxs)("div", {
+    className: "flex w-full items-center justify-center hidden md:flex",
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("a", {
+        href: "/cloud",
+        className: "p-4 text-white text-md font-bold",
+        children: "Cloud"
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("a", {
+        href: "/apps",
+        className: "p-4 text-white text-md font-bold",
+        children: "Apps"
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("a", {
+        href: "/#",
+        className: "p-4 text-white text-3xl font-bold",
+        children: "Superdata"
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("a", {
+        href: "/dev",
+        className: "p-4 text-white text-md font-bold underline",
+        children: "Dev"
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime8.jsx)("a", {
+        href: "/contact",
+        className: "p-4 text-white text-md font-bold",
+        children: "Contact"
+      })
+    ]
+  });
+};
+
+// src/MainMenuContact.tsx
+var import_jsx_runtime9 = require("react/jsx-runtime");
+var MainMenuContact = () => {
+  return /* @__PURE__ */ (0, import_jsx_runtime9.jsxs)("div", {
+    className: "flex w-full items-center justify-center hidden md:flex",
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("a", {
+        href: "/cloud",
+        className: "p-4 text-white text-md font-bold",
+        children: "Cloud"
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("a", {
+        href: "/apps",
+        className: "p-4 text-white text-md font-bold",
+        children: "Apps"
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("a", {
+        href: "/#",
+        className: "p-4 text-white text-3xl font-bold",
+        children: "Superdata"
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("a", {
+        href: "/dev",
+        className: "p-4 text-white text-md font-bold",
+        children: "Dev"
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime9.jsx)("a", {
+        href: "/cont",
+        className: "p-4 text-white text-md font-bold underline",
+        children: "Contact"
+      })
+    ]
+  });
+};
+
+// src/SubMenuItamaesan.tsx
+var import_jsx_runtime10 = require("react/jsx-runtime");
+var SubMenuItamaesan = () => {
+  return /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", {
+    className: "flex flex-col bg-white text-black items-center hidden md:block",
+    children: /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", {
+      className: "container flex w-full columns-2 p-5 items-center justify-center",
+      children: [
+        /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", {
+          className: "p-3 m-3 px-24 text-md text-left items-left justify-left",
+          children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("a", {
+            href: "/#",
+            className: "",
+            children: "ITAMAESAN ORG"
+          })
+        }),
+        /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", {
+          className: "p-3 m-3 px-24 text-md text-left items-left justify-left",
+          children: [
+            /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", {
+              className: "",
+              children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("a", {
+                href: "/#",
+                className: "",
+                children: "Wri"
+              })
+            }),
+            /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", {
+              className: "",
+              children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("a", {
+                href: "/#",
+                className: "",
+                children: "Helpedesk"
+              })
+            }),
+            /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", {
+              className: "",
+              children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("a", {
+                href: "/#",
+                className: "",
+                children: "SushiJS"
+              })
+            }),
+            /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", {
+              className: "",
+              children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("a", {
+                href: "/#",
+                className: "",
+                children: "GiveAway Tool"
+              })
+            }),
+            /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("div", {
+              className: "",
+              children: /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("a", {
+                href: "/#",
+                className: "",
+                children: "Twitter"
+              })
+            })
+          ]
+        })
+      ]
+    })
   });
 };
 // Annotate the CommonJS export names for ESM import in node:
@@ -259,6 +470,11 @@ var MainMenu = () => {
   Button,
   Footer,
   MainMenu,
+  MainMenuApps,
+  MainMenuCloud,
+  MainMenuContact,
+  MainMenuDev,
   SubMenu,
+  SubMenuItamaesan,
   Version
 });
