@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import Head from "next/head";
-import { Menu } from "ui";
-import { Menu1 } from "ui";
+import { MainMenu } from "ui";
+import { SubMenu } from "ui";
 import { Footer } from "ui";
 
 export default function Home() {
@@ -12,8 +12,8 @@ export default function Home() {
         <title>Super Menu | Sushi JS</title>
         <link rel="icon" href="./favicon.ico" />
       </Head>
-      <Menu1 />   
-      <Menu />
+      <MainMenu />   
+      <SubMenu />
       <Footer />
     </div>
   );

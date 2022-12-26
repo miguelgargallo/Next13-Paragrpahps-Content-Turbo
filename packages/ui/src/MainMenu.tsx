@@ -1,4 +1,4 @@
-export const Menu1 = () => {
+export const MainMenu = () => {
   return (
     <div className="flex w-full items-center justify-center">
       <a href="/#" className="p-4 text-white text-md font-bold">Menu Element 1</a>

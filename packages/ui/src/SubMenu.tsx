@@ -1,9 +1,9 @@
-export const Menu = () => {
+export const SubMenu = () => {
   return (
     <div className="bg-white text-black">
       <div className="flex flex-row m-2 columns-2 items-center justify-center">
         <div className="w-full px-16 text-3xl">
-          <a href="/#" className="">SuperMenu</a>
+          <a href="/#" className="">Pylar</a>
         </div>
         <div className="w-full px-16 text-md">
           <div className="flex items-center justify-center">
