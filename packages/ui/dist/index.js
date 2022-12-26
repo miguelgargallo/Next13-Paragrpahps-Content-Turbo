@@ -27,6 +27,7 @@ __export(src_exports, {
   MainMenuCloud: () => MainMenuCloud,
   MainMenuContact: () => MainMenuContact,
   MainMenuDev: () => MainMenuDev,
+  MainMenuMobileApps: () => MainMenuMobileApps,
   SubMenu: () => SubMenu,
   SubMenuItamaesan: () => SubMenuItamaesan,
   Version: () => Version
@@ -304,7 +305,7 @@ var MainMenuApps = () => {
       /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("a", {
         href: "/cloud",
         className: "p-4 text-white text-md font-bold",
-        children: "Cloud"
+        children: "sm not hidden"
       }),
       /* @__PURE__ */ (0, import_jsx_runtime7.jsx)("a", {
         href: "/apps",
@@ -465,6 +466,36 @@ var SubMenuItamaesan = () => {
     })
   });
 };
+
+// src/MainMenuMobileApps.tsx
+var import_jsx_runtime11 = require("react/jsx-runtime");
+var MainMenuMobileApps = () => {
+  return /* @__PURE__ */ (0, import_jsx_runtime11.jsxs)("div", {
+    className: "flex w-full items-center justify-center grid-cols-4 gap-12 place-content-end",
+    children: [
+      /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("a", {
+        href: "/cloud",
+        className: "text-blue-500 text-white font-bold",
+        children: "Cloud"
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("a", {
+        href: "/apps",
+        className: "text-white font-bold",
+        children: "Apps"
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("a", {
+        href: "/dev",
+        className: "text-yellow-500 font-bold",
+        children: "Dev"
+      }),
+      /* @__PURE__ */ (0, import_jsx_runtime11.jsx)("a", {
+        href: "/contact",
+        className: "text-green-500 font-bold",
+        children: "Contact"
+      })
+    ]
+  });
+};
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
   Button,
@@ -474,6 +505,7 @@ var SubMenuItamaesan = () => {
   MainMenuCloud,
   MainMenuContact,
   MainMenuDev,
+  MainMenuMobileApps,
   SubMenu,
   SubMenuItamaesan,
   Version

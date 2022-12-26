@@ -269,7 +269,7 @@ var MainMenuApps = () => {
       /* @__PURE__ */ jsx7("a", {
         href: "/cloud",
         className: "p-4 text-white text-md font-bold",
-        children: "Cloud"
+        children: "sm not hidden"
       }),
       /* @__PURE__ */ jsx7("a", {
         href: "/apps",
@@ -430,6 +430,36 @@ var SubMenuItamaesan = () => {
     })
   });
 };
+
+// src/MainMenuMobileApps.tsx
+import { jsx as jsx11, jsxs as jsxs10 } from "react/jsx-runtime";
+var MainMenuMobileApps = () => {
+  return /* @__PURE__ */ jsxs10("div", {
+    className: "flex w-full items-center justify-center grid-cols-4 gap-12 place-content-end",
+    children: [
+      /* @__PURE__ */ jsx11("a", {
+        href: "/cloud",
+        className: "text-blue-500 text-white font-bold",
+        children: "Cloud"
+      }),
+      /* @__PURE__ */ jsx11("a", {
+        href: "/apps",
+        className: "text-white font-bold",
+        children: "Apps"
+      }),
+      /* @__PURE__ */ jsx11("a", {
+        href: "/dev",
+        className: "text-yellow-500 font-bold",
+        children: "Dev"
+      }),
+      /* @__PURE__ */ jsx11("a", {
+        href: "/contact",
+        className: "text-green-500 font-bold",
+        children: "Contact"
+      })
+    ]
+  });
+};
 export {
   Button,
   Footer,
@@ -438,6 +468,7 @@ export {
   MainMenuCloud,
   MainMenuContact,
   MainMenuDev,
+  MainMenuMobileApps,
   SubMenu,
   SubMenuItamaesan,
   Version
