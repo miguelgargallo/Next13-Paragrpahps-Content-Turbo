@@ -1,6 +1,6 @@
 # EP7 | Pencil TV 🔴 Hey que creamos parapraphs, divs y contenido para tu web de Next 13.1.1 en React con Javascript, Typescript y Tailwindc
 - Código: https://github.com/miguelgargallo/Next13-Paragrpahps-Content-Turbo
-- Visita la web: (No Vercel Link Provided by the moment)
+- Visita la web: https://next13-paragrpahps-content-turbo-web.vercel.app/apps
 - Lee el código: https://github.com/miguelgargallo/Next13-Menu-Magic-Turbo
 Usa el Framework: git clone https://github.com/miguelgargallo/Next13-Paragrpahps-Content-Turbo
 
